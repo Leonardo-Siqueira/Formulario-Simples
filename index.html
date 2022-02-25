@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Formulário Simples</title>
+</head>
+<body>
+    <div class="container">
+        <div class="titulo">
+            <h1>Escola Virtual</h1>
+            <h2>Formulário de Pré-Matrícula</h2>
+        </div>
+        <div class="container-in">
+            Dados Pessoais:
+            <form method="post" action="">
+                <label>
+                    Nome do Aluno: <br/>
+                    <input type="text" name="name" placeholder="Nome Completo" autocomplete="off"/><br/>
+                </label>
+                <label>
+                    Nascimento: <br/>
+                    <input type="date" name="born-date" required/><br/>
+                </label>
+                <label>
+                    Nome da Mãe: <br/>
+                    <input type="text" name="name-mother" placeholder="Nome Completo" autocomplete="off"/><br/>
+                </label>
+                <label>
+                    Nome do Pai: <br/>
+                    <input type="text" name="name-father" placeholder="Nome Completo" autocomplete="off"/><br/>
+                </label>
+                <label>
+                    Telefone: <br/>
+                    <input type="tel" name="tel" autocomplete="off" size="11" maxlength="11" placeholder="(22) 9 9999-9999"/><br/>
+                </label>
+                <label>
+                    E-mail: <br/>
+                    <input type="email" name="usuario" placeholder="joao@mail.com"/>
+                </label>
+            </form>
+        </div>
+        
+        <div class="container-in2">
+            Informações de Matrícula:
+            <form method="post" action="">
+                <div>
+                    <label>
+                        Série: <br/>
+                        <select>
+                            <optgroup>
+                                <option value="Pré">Pré-Escolar</option>
+                                <option value="Pré1">Pré-1</option>
+                                <option value="Pré2">Pré-2</option>
+                            </optgroup>
+                        </select>
+                    </label>
+                </div>
+
+                <div>
+                    Turno: <br/>
+                    <label>
+                        <input type="radio" name="turno"> Manhã <br/>
+                    </label>
+
+                    <label>
+                        <input type="radio" name="turno"> Tarde
+                    </label>
+                </div>
+
+                <div>
+                    Atividades Extracurriculares: <br/>
+                    <label>
+                        <input type="checkbox" name="info"/> Informática<br/>
+                    </label>
+
+                    <label>
+                        <input type="checkbox" name="music"/> Música<br/>
+                    </label>
+
+                    <label>
+                        <input type="checkbox" name="danca"/> Balet<br/>
+                    </label>
+
+                    <label>
+                        <input type="checkbox" name="paint"/> Pintura<br/>
+                    </label>
+
+                    <label>
+                        <input type="checkbox" name="fight"/> Judô<br/>
+                    </label>
+
+                    <label>
+                        <input type="checkbox" name="fute"/> Futebol<br/>
+                    </label>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
