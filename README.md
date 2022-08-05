@@ -1,4 +1,4 @@
-<h1 align="center">Formulario Simples 📰</h1>
+<h1 align="center">Formulário Simples 📰</h1>
 
 <h2>🚀 Tecnologias</h2>
 
@@ -11,3 +11,5 @@
 
 <h2>💻 Projeto</h2>
 <p>Esse formulário permite aos usuários efeturem o cadastro do aluno para a pré-matrícula.</p>
+
+<p>Feito por <b>Leonardo Siqueira</b>, entre em contato <a href="https://www.linkedin.com/in/leonardo-siqueira-b63485228/">aqui!</a>
