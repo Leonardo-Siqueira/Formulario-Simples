@@ -17,4 +17,4 @@
 <h2>💻 Projeto</h2>
 <p>Esse formulário permite aos usuários efeturem o cadastro do aluno para a pré-matrícula.</p>
 
-<p>Feito por <b>Leonardo Siqueira</b>, entre em contato <a href="https://www.linkedin.com/in/leonardo-siqueira-b63485228/">aqui!</a>
+<p>Feito por <b>Leonardo Siqueira</b>, entre em contato comigo <a href="https://www.linkedin.com/in/leo-siqueira/">aqui! 😉</a>
