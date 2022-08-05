@@ -1,3 +1,3 @@
-# Formulario Simples 📰
+<h1 align="center">Formulario Simples 📰</h1>
 
-Formulário simples para efetuar cadastro de aluno para a pré-matrícula.
+<p>Formulário simples para efetuar cadastro de aluno para a pré-matrícula.</p>
